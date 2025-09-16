@@ -7,7 +7,7 @@
 
 [project]
 name = "mdx-language-server-feedstock"
-version = "3.50.0"  # conda-smithy version used to generate this file
+version = "3.52.2"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/mdx-language-server-feedstock"
 authors = ["@conda-forge/mdx-language-server"]
 channels = ["conda-forge"]
@@ -40,6 +40,7 @@ description = "List contents of mdx-language-server-feedstock packages built for
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
+shellcheck = "*"
 [feature.smithy.tasks.build-locally]
 cmd = "python ./build-locally.py"
 description = "Build packages locally using the same setup scripts used in conda-forge's CI"
