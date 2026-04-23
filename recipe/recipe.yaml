@@ -10,7 +10,7 @@ source:
   sha256: acd6096108e703bbb4da73f86bb10bff225b8c67703f444b429021aff23dc4bb
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
@@ -31,8 +31,8 @@ about:
     - LICENSE
     - third-party-licenses.txt
   summary: Language server for MDX
-  homepage: https://github.com/mdx-js/${{ name }}
-  repository: https://github.com/mdx-js/${{ name }}
+  homepage: https://github.com/mdx-js/mdx-language-server
+  repository: https://github.com/mdx-js/mdx-language-server
 
 extra:
   recipe-maintainers:
